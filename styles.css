@@ -2,16 +2,21 @@ body {
       background-color: #413b54;
 }
 
+/* LMAO these things are stacked */
+/* Also, don't forget to center div!! */
 div {
       background-color: #915dc6;
       border: 3px solid #ff00ff;
+      float: left;
+      margin: 10px;
       padding: 5px;
+      width: 40%;
 }
 
 h1 {
-      text-align: center;
       background-image: linear-gradient(to right, #0c081e00, #0c081e, #0c081e00);
       color: #fff;
+      text-align: center;
 }
 
 p {
