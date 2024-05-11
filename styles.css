@@ -2,15 +2,20 @@ body {
       background-color: #413b54;
 }
 
-/* LMAO these things are stacked */
-/* Also, don't forget to center div!! */
-div {
+.filler-div {
+      text-align: center;
+}
+
+.index-div {
       background-color: #915dc6;
       border: 3px solid #ff00ff;
-      float: left;
-      margin: 10px;
+      flex: 1;
+      margin: 5px;
       padding: 5px;
-      width: 40%;
+}
+
+.flex-div {
+      display: flex;
 }
 
 h1 {
@@ -19,6 +24,13 @@ h1 {
       text-align: center;
 }
 
-p {
+span {
       color: #fff;
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
+      font-size: xx-large;
+}
+
+p, ul {
+      color: #fff;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
