@@ -34,3 +34,37 @@ p, ul {
       color: #fff;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.navbar {
+      background-color: #000;
+      list-style-type: none;
+      overflow: hidden;
+      padding: 5px;
+}
+
+.navlist {
+      float: left;
+}
+
+li a {
+      color: #cc00ff;
+      display: block;
+      margin-left: 15px;
+      margin-top: 0px;
+      padding: 5px;
+      text-align: center;
+}
+
+li a:hover {
+      color: #00ffff;
+      background-color: #a699ce;
+}
+
+.meme:hover {
+      color: #a699ce
+}
+
+.meme:hover::after {
+      color: #00ffff;
+      content: "Fanfic...";
+}
