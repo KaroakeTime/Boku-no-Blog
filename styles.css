@@ -38,6 +38,7 @@ p, ul {
 .navbar {
       background-color: #000;
       list-style-type: none;
+      margin: -10px; /*どうして...*/
       overflow: hidden;
       padding: 5px;
 }
